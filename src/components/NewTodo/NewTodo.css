@@ -1,0 +1,28 @@
+input{
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: #2980b9;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+input:focus{
+	background: white;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    background-color: #2980b9;
+    border: none;
+    color: white;
+    padding-left: 1rem;
+    font-size: 2.5rem;
+    padding-right: 1rem;
+}
+
